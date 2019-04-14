@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/guoji/guoji",
+    "pages/detail/detail",
+    "pages/keji/keji"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "头条新闻",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "国内"
+      },
+      {
+        "pagePath": "pages/guoji/guoji",
+        "text": "国际"
+      },
+      {
+        "pagePath": "pages/keji/keji",
+        "text": "科技"
+      }
+    ]
+  }
+}
